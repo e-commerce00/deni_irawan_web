@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Surya Jaya Motor</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">New Arrivals</a></li>
+            <li><a href="">Fashion</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <!--for responsive button-->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>Surya Jaya Motor</h1>
+        <p>Surya Jaya Motor menyediakan berbagai sparepart
+            <br>motor dengan harga yang murah dan berkualitas
+        </p>
+        <button>Beli sekarang</button>
+    </section>
+
+    <h1 class="pheading">Produk Pilihan</h1>
+
+    <section class="sec">
+        <div class="products">
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <div class="desc">Lampu</div>
+                <div class="title">Lampu Sein Kiri Kanan</div>
+                <div class="box">
+                    <div class="price">Rp 40.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/2.jpg" alt=""></div>
+                <div class="desc">Ban</div>
+                <div class="title">Ban Motor</div>
+                <div class="box">
+                    <div class="price">Rp 300.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/3.jpg" alt=""></div>
+                <div class="desc">Velg</div>
+                <div class="title">Velg Bintang</div>
+                <div class="box">
+                    <div class="price">Rp 1.000.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/4.jpg" alt=""></div>
+                <div class="desc">Knalpot</div>
+                <div class="title">Knalpot Racing</div>
+                <div class="box">
+                    <div class="price">Rp 900.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/5.jpg" alt=""></div>
+                <div class="desc">Baut</div>
+                <div class="title">Baut & Mur</div>
+                <div class="box">
+                    <div class="price">Rp 20.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/6.jpg" alt=""></div>
+                <div class="desc">Tangki</div>
+                <div class="title">Tangki Motor</div>
+                <div class="box">
+                    <div class="price">Rp 800.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/7.jpg" alt=""></div>
+                <div class="desc">Cakram (Rem)</div>
+                <div class="title">Cakram Depan</div>
+                <div class="box">
+                    <div class="price">Rp 150.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/8.jpg" alt=""></div>
+                <div class="desc">Tutup Tangki</div>
+                <div class="title">Tutup Tangki Bensin</div>
+                <div class="box">
+                    <div class="price">Rp 70.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/9.jpeg" alt=""></div>
+                <div class="desc">Lampu</div>
+                <div class="title">Lampu Depan LED</div>
+                <div class="box">
+                    <div class="price">Rp 50.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights at <a href="">Surya Jaya Motor</a></p>
+    </footer>
+
+    <!--jquery-->
+
+    <script>
+        $(".menu-btn").click(function() {
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+
+</body>
+
+</html>
